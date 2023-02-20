@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box; /*a margem, padding e border não interferirão na largura dos elementos*/
+}     
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal; /*tipo de font*/
+}
+
+.box {
+    width: 60%; /* largura */
+    margin: auto; /*centro da página*/
+}
+
+.container {
+    background-color: #333; /*Hexadecimal abreviado #333333*/
+    color: #eee; /*Hexadecimal abreviado #eeeeee*/
+    width: 80%; /*largura. Com percentual fica responsivo*/
+
+    margin: auto; /*o elemento fica no meio da página*/
+    padding: 20px; /*espaçamento dentro do conteúdo com relação a borda*/
+    border: 5px solid gray;
+}
+
+.main-aside h2{
+    text-align: center;
+
+}
+
+.main-aside ul{
+    list-style: none; /*retira as marcações da frente da lista*/
+    text-align: center;
+    padding: 0; /*a lista tem um padding por padrão, se não zerar não vai alinhar corretamente*/
+
+}
+
+.main-aside ul a {
+    text-decoration: none; /*retira sublinhado do link*/
+    color: black;
+}
+.main-aside ul a:hover{ /*adcionar propriedades nos elementos ao passar o cursor em cima*/
+ color: blue; /*muda a cor do link ao passar o cursor por cima*/
+
+}
+
+/* Formulários */
+.main-form {
+    padding-left: 20px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px; /*espaçamento abaixo*/
+}
+
+.main-form .form-group input{
+    padding: 10px; /*espaçamento abaixo*/
+    width: 100%;
+}
+
+.main-form .form-group label{
+    display: block; /*coloca os elementos um abaixo do outro*/
+}
+
+.button {
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px; /*arredondamento do elemento*/
+
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+}
